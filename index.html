@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Kingdom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vikhilian Mushie Kings</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Mushrooms</a></li>
+            <li><a href="#types">Types of Mushrooms</a></li>
+            <li><a href="#gallery">Mushroom Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Mushrooms</h2>
+            <p>Insert information about mushrooms here.</p>
+        </section>
+        <section id="types">
+            <h2>Types of Mushrooms</h2>
+            <p>Insert information about different types of mushrooms here.</p>
+        </section>
+        <section id="gallery">
+            <h2>Mushroom Gallery</h2>
+            <div id="mushroom-gallery">
+                <!-- Mushroom images will be dynamically added here -->
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mushroom Kingdom</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
